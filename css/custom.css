@@ -6,6 +6,7 @@ ul#flex-container {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: row-reverse;
 }
 ul li {
     flex-grow: 1;
