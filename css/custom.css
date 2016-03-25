@@ -8,12 +8,13 @@ ul#flex-container {
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    height: 300px;
+    align-items: stretch;
 }
 ul li {
   
     width: 100px;
-    height: 150px;
+   
     padding-top: 45px;
     color:#fff;
     font-weight:bold;
@@ -27,7 +28,7 @@ ul li:nth-child(2) {
     background:  #007278;
 }
 ul li:nth-child(3) {
-    background:  #c7b600;
+    background:  #c7b600; align-self: flex-end;
 }
 ul li:nth-child(4) {
     background: #a90077;
